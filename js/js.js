@@ -47,7 +47,7 @@ class countriesList {
 
     var search = document.getElementById("search")
 
-    search.addEventListener('keyup', (e) => {
+    search.addEventListener('click', (e) => {
       e.preventDefault()
       this.printCountries()
     })
@@ -57,4 +57,3 @@ class countriesList {
 var objCountriesList = new countriesList();
 objCountriesList.printCountries();
 objCountriesList.searching();
-
